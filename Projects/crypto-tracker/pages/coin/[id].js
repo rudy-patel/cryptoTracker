@@ -1,5 +1,6 @@
 import Layout from '../../components/Layout';
 import styles from './Coin.module.css';
+import TradingViewWidget, { Themes } from 'react-tradingview-widget';
 
 const Coin = ({ coin }) => {
   return (
@@ -18,8 +19,15 @@ const Coin = ({ coin }) => {
           <p className={styles.coin_data}>Hashing algo: {coin.hashing_algorithm}</p>
           <p className={styles.coin_data}>Market cap: USD${coin.market_data.market_cap.usd.toLocaleString()}</p>
           <p className={styles.coin_data}>Volume: {coin.market_data.total_volume.usd.toLocaleString()}</p>
-          
-        </div>
+          <TradingViewWidget
+            symbol={"BINANCE:" + coin.symbol.toUpperCase() + "USDT"}
+            theme={Themes.LIGHT}
+            locale="en"
+            width="800px"
+            height="500px"
+            interval="D"
+          />
+          </div>
       </div>
     </Layout>
   );
