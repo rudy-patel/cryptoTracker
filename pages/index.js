@@ -24,6 +24,7 @@ export default function Home({filteredCoins}) {
         <SearchBar type="text" placeholder='Search for a coin' onChange={handleChange}/>
         <CoinList filteredCoins={allCoins}/>
       </div>
+      <div class="footer">Made with ❤️ by Rudy</div>
     </Layout>
   )
 }
@@ -38,6 +39,4 @@ export const getServerSideProps = async () => {
       filteredCoins
     }
   }
-
-
 }
