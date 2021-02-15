@@ -2,7 +2,7 @@
 ## CryptoTracker
 **CryptoTracker** is a basic cryptocurrency market tracker, which lists the top 50 coins (ordered by market cap), along with trading charts to analyze the performance of the coin.
 
-For each coin, you can also find the following stats:
+For each coin, you can also find the following properties:
 * Daily percent change
 * Current price
 * All time high
