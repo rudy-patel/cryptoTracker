@@ -3,6 +3,7 @@ import CoinList from '../components/CoinList'
 import Layout from '../components/Layout'
 import CoinListHeader from '../components/CoinListHeader'
 import {useState} from 'react'
+import Image from 'next/image'
 
 export default function Home({filteredCoins}) {
   const [search, setSearch] = useState('')

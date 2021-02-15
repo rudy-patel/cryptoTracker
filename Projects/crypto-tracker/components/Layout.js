@@ -1,19 +1,19 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import styles from '../components/CoinListHeader'
+import Image from 'next/image'
 
-const Layout = ({children, title = "Crypto Tracker"}) => {
+
+const Layout = ({children, title = "CryptoTracker"}) => {
     return (
         <div className="layout">
             <Head>
                 <title>{title}</title>
-                <link rel='icon' href='/favicon.ico' />
+                <link rel='icon' href='/bitcoinLogo.jpg' />
             </Head>
             <header className="header">
             <h1>CryptoTracker</h1>
-            
-            </header>
-            <main>{children}</main>
+            </header>         
+          <main>{children}</main>
         </div>
     )
 }
