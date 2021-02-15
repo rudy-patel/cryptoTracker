@@ -11,8 +11,8 @@ For each coin, you can also find the following stats:
 * Hashing algorithm
 * Volume
 
-## Getting Started
-First, run the development server:
+## Getting started
+Run the development server, using `npm` or `yarn`:
 
 ```bash
 # using npm
@@ -22,8 +22,9 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the project!
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the project!
 
+## See it in action
 
 
 ## Miscellaneous
