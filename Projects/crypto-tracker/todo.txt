@@ -1,0 +1,2 @@
+Todo:
+- add footer tag in pages/index.js
