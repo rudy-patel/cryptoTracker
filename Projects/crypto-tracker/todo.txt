@@ -1,2 +1,4 @@
 Todo:
 - add footer tag in pages/index.js
+- add header for the coin list, labelling the columns
+- look to integrate chart.js to see if we can plot the price, maybe need to call another api??
