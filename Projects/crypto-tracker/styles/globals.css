@@ -37,11 +37,14 @@ body {
 .layout {
   height: 100%;
   width: 100%;
+  align-content: center;
 }
 
 .header {
   display: flex;
   justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 .coin_logo {
   height: 200px;

@@ -21,20 +21,20 @@
   }
   
   .coin_name {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
   }
   
   .coin_ticker {
     margin-bottom: 1rem;
+    font-size: xx-large;
   }
   
-  .coin_current {
+  .coin_current_price {
     margin-bottom: 1rem;
-    font-size: medium;
+    font-size: large;
   }
   
-  .coin_block_time {
+  .coin_data {
     font-size: medium;
     margin-bottom: 1rem;
   }
-  
