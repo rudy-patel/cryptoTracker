@@ -13,8 +13,8 @@ const Coin = ({ coin }) => {
             className={styles.coin_image}
           />
           <h1 className={styles.coin_name}>{coin.name} ({coin.symbol.toUpperCase()})</h1>
-          <p className={styles.coin_current_price}>Current price: {coin.market_data.current_price.usd}</p>
-          <p className={styles.coin_data}>All-time high: {coin.market_data.ath.usd} on {coin.market_data.ath_date.usd.substring(0,10)}</p>
+          <p className={styles.coin_current_price}>Current price: USD${coin.market_data.current_price.usd}</p>
+          <p className={styles.coin_data}>All-time high: USD${coin.market_data.ath.usd} on {coin.market_data.ath_date.usd.substring(0,10)}</p>
           <p className={styles.coin_data}>Block time: {coin.block_time_in_minutes} min</p>
           <p className={styles.coin_data}>Hashing algo: {coin.hashing_algorithm}</p>
           <p className={styles.coin_data}>Market cap: USD${coin.market_data.market_cap.usd.toLocaleString()}</p>
