@@ -16,7 +16,7 @@ For each coin, you can also find the following properties:
 <img src="gifs/cryptoTracker.gif" width="60%" height="40%" />
 
 ### Chart interaction
-After selecting a coin, feel free to interact with the chart however you wish! Things such as adjusting the candle size, chart type, and adding pattern indicators are a breeze.
+After selecting a coin, feel free to interact with the chart however you wish! Things such as adjusting the candle size, chart type, and adding pattern indicators, is super intuitive.
 <img src="gifs/cryptoTrackerChart.gif" width="60%" height="40%" />
 
 ### Getting started
