@@ -11,6 +11,14 @@ For each coin, you can also find the following properties:
 * Hashing algorithm
 * Volume
 
+## Workflows
+### Coin search
+<img src="gifs/cryptoTracker.gif" width="60%" height="40%" />
+
+### Chart interaction
+After selecting a coin, feel free to interact with the chart however you wish! Things such as adjusting the candle size, chart type, and adding pattern indicators are a breeze.
+<img src="gifs/cryptoTrackerChart.gif" width="60%" height="40%" />
+
 ### Getting started
 Run the development server, using `npm` or `yarn`:
 
@@ -24,8 +32,6 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to see the project!
 
-### See it in action
-insert GIF of project here
 
 ### Miscellaneous
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
