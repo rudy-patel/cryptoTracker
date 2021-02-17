@@ -13,7 +13,7 @@ For each coin, you can also find the following properties:
 
 ## Workflows
 ### Coin search
-By default, the top 50 coins are ordered by market cap. If a coin is hard to find, just use the search bar to find the coin you want!
+By default, the top 50 coins are ordered by market cap. If a coin is hard to find, just use the search bar!
 <img src="gifs/cryptoTracker.gif" width="60%" height="40%" />
 
 ### Chart interaction
