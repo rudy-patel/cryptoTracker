@@ -1,6 +1,6 @@
 import SearchBar from '../components/SearchBar'
 import CoinList from '../components/CoinList'
-import Layout from '../components/Layout'
+import Layout from '../components/layout'
 import CoinListHeader from '../components/CoinListHeader'
 import {useState} from 'react'
 import Image from 'next/image'

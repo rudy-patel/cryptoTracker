@@ -1,4 +1,4 @@
-import Layout from '../../components/Layout';
+import Layout from '../../components/layout';
 import styles from './Coin.module.css';
 import TradingViewWidget, { Themes } from 'react-tradingview-widget';
 
