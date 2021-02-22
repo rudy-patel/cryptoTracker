@@ -25,10 +25,10 @@ Run the development server, using `npm` or `yarn`:
 
 ```bash
 # using npm
-npm run dev
+npm start
 
 # alternatively, using yarn
-yarn dev
+yarn start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to see the project!
