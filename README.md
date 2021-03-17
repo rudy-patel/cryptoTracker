@@ -1,6 +1,6 @@
 
 ## CryptoTracker
-**CryptoTracker** is a cryptocurrency market tracker, which lists the top 50 coins (ordered by market cap), along with interactive trading charts to analyze the performance of the coin.
+**CryptoTracker** is a cryptocurrency market tracker, which lists the top 50 coins (ordered by market cap), along with interactive trading charts to analyze the performance of the coin. Feel free to play around with the site [here](https://crypto-trackr.vercel.app/)!
 
 For each coin, you can also find the following properties:
 * Daily percent change
